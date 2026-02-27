@@ -3,7 +3,7 @@
   <PropertyGroup>
     <FrameworkVersion>3.1.0</FrameworkVersion>
     <ExtensionsVersion>3.1.0</ExtensionsVersion>
-    <EntityFrameworkVersion>3.1.0</EntityFrameworkVersion>
+    <EntityFrameworkVersion>8.0.0</EntityFrameworkVersion>
     
     <IdentityServerVersion>3.1.3-*</IdentityServerVersion>
   </PropertyGroup>
@@ -28,8 +28,8 @@
     <PackageReference Update="IdentityServer4" Version="$(IdentityServerVersion)" />
     <PackageReference Update="IdentityServer4.AspNetIdentity" Version="$(IdentityServerVersion)" />
     <PackageReference Update="IdentityServer4.Storage" Version="$(IdentityServerVersion)" />
-    <PackageReference Update="IdentityServer4.EntityFramework.Storage" Version="$(IdentityServerVersion)" />
-    <PackageReference Update="IdentityServer4.EntityFramework" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Net8.IdentityServer4.EntityFramework.Storage" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Net8.IdentityServer4.EntityFramework" Version="$(IdentityServerVersion)" />
 
     <!--misc-->
     <PackageReference Update="Newtonsoft.Json" Version="12.0.2" />
@@ -44,7 +44,7 @@
     
     <!--misc -->
     <PackageReference Update="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="5.5.0" />
-    <PackageReference Update="AutoMapper" Version="[9.0.0,10.0)" />
+    <PackageReference Update="AutoMapper" Version="12.0.1" />
     
     <!--microsoft asp.net core -->
     <PackageReference Update="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="$(FrameworkVersion)" />

@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageId>IdentityServer4.EntityFramework.Storage</PackageId>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <PackageId>Net8.IdentityServer4.EntityFramework.Storage</PackageId>
+    <TargetFramework>net8.0</TargetFramework>
+    <MinVerVersionOverride>3.1.4</MinVerVersionOverride>
     
     <Description>EntityFramework persistence layer for IdentityServer4</Description>
     <Authors>Brock Allen;Dominick Baier;Scott Brady</Authors>
